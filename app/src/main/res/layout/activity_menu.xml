@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.orzeszko.esilownia.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="WYBIERZ DZIEŃ"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bPoniedzialek"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="PONIEDZIAŁEK"
+            android:onClick="wybierzPoniedzialek"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bWtorek"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="WTOREK"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bSroda"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="ŚRODA"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bCzwartek"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="CZWARTEK"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bPiatek"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="PIĄTEK"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bSobota"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="SOBOTA"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bNiedziela"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/armata"
+            android:gravity="center"
+            android:text="NIEDZIELA"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
