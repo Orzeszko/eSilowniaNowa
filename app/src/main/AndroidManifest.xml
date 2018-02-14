@@ -17,11 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".Menu" />
-        <activity android:name=".Dzien"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Poniedzialek"></activity>
     </application>
 
 </manifest>
