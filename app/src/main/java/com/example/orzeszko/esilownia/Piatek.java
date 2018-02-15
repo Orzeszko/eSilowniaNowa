@@ -15,7 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Poniedzialek extends AppCompatActivity {
+public class Piatek extends AppCompatActivity {
 
     EditText editText1;
     EditText editText2;
@@ -29,7 +29,7 @@ public class Poniedzialek extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_poniedzialek);
+        setContentView(R.layout.activity_piatek);
         editText1 = findViewById(R.id.editText1);
         editText2 = findViewById(R.id.editText2);
         editText3 = findViewById(R.id.editText3);
@@ -43,22 +43,22 @@ public class Poniedzialek extends AppCompatActivity {
 
     public void zapisz(View view)
     {
-    String Cwiczenie1 = editText1.getText().toString();
-    String Cwiczenie2 = editText2.getText().toString();
-    String Cwiczenie3 = editText3.getText().toString();
-    String Cwiczenie4 = editText4.getText().toString();
-    String Cwiczenie5 = editText5.getText().toString();
-    String Cwiczenie6 = editText6.getText().toString();
-    String Cwiczenie7 = editText7.getText().toString();
+        String Cwiczenie1 = editText1.getText().toString();
+        String Cwiczenie2 = editText2.getText().toString();
+        String Cwiczenie3 = editText3.getText().toString();
+        String Cwiczenie4 = editText4.getText().toString();
+        String Cwiczenie5 = editText5.getText().toString();
+        String Cwiczenie6 = editText6.getText().toString();
+        String Cwiczenie7 = editText7.getText().toString();
 
 
-        String poniedzialekPlik1 = "poniedzialek1";
-        String poniedzialekPlik2 = "poniedzialek2";
-        String poniedzialekPlik3 = "poniedzialek3";
-        String poniedzialekPlik4 = "poniedzialek4";
-        String poniedzialekPlik5 = "poniedzialek5";
-        String poniedzialekPlik6 = "poniedzialek6";
-        String poniedzialekPlik7 = "poniedzialek7";
+        String poniedzialekPlik1 = "piatek1";
+        String poniedzialekPlik2 = "piatek2";
+        String poniedzialekPlik3 = "piatek3";
+        String poniedzialekPlik4 = "piatek4";
+        String poniedzialekPlik5 = "piatek5";
+        String poniedzialekPlik6 = "piatek6";
+        String poniedzialekPlik7 = "piatek7";
 
 
         try {
@@ -146,7 +146,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message1;
 
 
-            FileInputStream fileInputStream1 = openFileInput("poniedzialek1");
+            FileInputStream fileInputStream1 = openFileInput("piatek1");
             InputStreamReader inputStreamReader1 = new InputStreamReader(fileInputStream1);
             BufferedReader bufferedReader1 = new BufferedReader(inputStreamReader1);
             StringBuffer stringBuffer1 = new StringBuffer();
@@ -168,7 +168,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message2;
 
 
-            FileInputStream fileInputStream2 = openFileInput("poniedzialek2");
+            FileInputStream fileInputStream2 = openFileInput("piatek2");
             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream2);
             BufferedReader bufferedReader2 = new BufferedReader(inputStreamReader);
             StringBuffer stringBuffer2 = new StringBuffer();
@@ -190,7 +190,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message3;
 
 
-            FileInputStream fileInputStream3 = openFileInput("poniedzialek3");
+            FileInputStream fileInputStream3 = openFileInput("piatek3");
             InputStreamReader inputStreamReader3 = new InputStreamReader(fileInputStream3);
             BufferedReader bufferedReader3 = new BufferedReader(inputStreamReader3);
             StringBuffer stringBuffer3 = new StringBuffer();
@@ -213,7 +213,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message4;
 
 
-            FileInputStream fileInputStream4 = openFileInput("poniedzialek4");
+            FileInputStream fileInputStream4 = openFileInput("piatek4");
             InputStreamReader inputStreamReader4 = new InputStreamReader(fileInputStream4);
             BufferedReader bufferedReader4 = new BufferedReader(inputStreamReader4);
             StringBuffer stringBuffer4 = new StringBuffer();
@@ -235,7 +235,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message5;
 
 
-            FileInputStream fileInputStream5 = openFileInput("poniedzialek5");
+            FileInputStream fileInputStream5 = openFileInput("piatek5");
             InputStreamReader inputStreamReader5 = new InputStreamReader(fileInputStream5);
             BufferedReader bufferedReader5 = new BufferedReader(inputStreamReader5);
             StringBuffer stringBuffer5 = new StringBuffer();
@@ -257,7 +257,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message6;
 
 
-            FileInputStream fileInputStream6 = openFileInput("poniedzialek6");
+            FileInputStream fileInputStream6 = openFileInput("piatek6");
             InputStreamReader inputStreamReader6 = new InputStreamReader(fileInputStream6);
             BufferedReader bufferedReader6 = new BufferedReader(inputStreamReader6);
             StringBuffer stringBuffer6 = new StringBuffer();
@@ -279,7 +279,7 @@ public class Poniedzialek extends AppCompatActivity {
             String Message7;
 
 
-            FileInputStream fileInputStream7 = openFileInput("poniedzialek5");
+            FileInputStream fileInputStream7 = openFileInput("piatek7");
             InputStreamReader inputStreamReader7 = new InputStreamReader(fileInputStream7);
             BufferedReader bufferedReader7 = new BufferedReader(inputStreamReader7);
             StringBuffer stringBuffer7 = new StringBuffer();

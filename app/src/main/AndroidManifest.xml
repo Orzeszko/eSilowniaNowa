@@ -22,7 +22,13 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Poniedzialek"></activity>
+        <activity android:name=".Poniedzialek" />
+        <activity android:name=".Wtorek" />
+        <activity android:name=".Sroda" />
+        <activity android:name=".Czwartek" />
+        <activity android:name=".Piatek" />
+        <activity android:name=".Sobota" />
+        <activity android:name=".Niedziela"></activity>
     </application>
 
 </manifest>

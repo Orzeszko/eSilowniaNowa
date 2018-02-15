@@ -49,6 +49,7 @@
             android:fontFamily="@font/armata"
             android:gravity="center"
             android:text="WTOREK"
+            android:onClick="wybierzWtorek"
             android:textSize="30sp" />
 
         <Button
@@ -59,6 +60,7 @@
             android:fontFamily="@font/armata"
             android:gravity="center"
             android:text="ŚRODA"
+            android:onClick="wybierzSroda"
             android:textSize="30sp" />
 
         <Button
@@ -69,6 +71,7 @@
             android:fontFamily="@font/armata"
             android:gravity="center"
             android:text="CZWARTEK"
+            android:onClick="wybierzCzwartek"
             android:textSize="30sp" />
 
         <Button
@@ -79,6 +82,7 @@
             android:fontFamily="@font/armata"
             android:gravity="center"
             android:text="PIĄTEK"
+            android:onClick="wybierzPiatek"
             android:textSize="30sp" />
 
         <Button
@@ -89,6 +93,7 @@
             android:fontFamily="@font/armata"
             android:gravity="center"
             android:text="SOBOTA"
+            android:onClick="wybierzSobota"
             android:textSize="30sp" />
 
         <Button
@@ -99,6 +104,7 @@
             android:fontFamily="@font/armata"
             android:gravity="center"
             android:text="NIEDZIELA"
+            android:onClick="wybierzNiedziela"
             android:textSize="30sp" />
 
     </LinearLayout>

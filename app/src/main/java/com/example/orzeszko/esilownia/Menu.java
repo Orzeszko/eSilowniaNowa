@@ -22,8 +22,37 @@ public class Menu extends AppCompatActivity {
 
         Intent intent = new Intent(this, Poniedzialek.class);
         startActivity(intent);
+    }
+    public void wybierzWtorek(View view) {
 
+        Intent intent = new Intent(this, Wtorek.class);
+        startActivity(intent);
+    }
 
+    public void wybierzSroda(View view) {
 
+        Intent intent = new Intent(this, Sroda.class);
+        startActivity(intent);
+    }
+    public void wybierzCzwartek(View view) {
+
+        Intent intent = new Intent(this, Czwartek.class);
+        startActivity(intent);
+    }
+    public void wybierzPiatek(View view) {
+
+        Intent intent = new Intent(this, Piatek.class);
+        startActivity(intent);
+    }
+
+    public void wybierzSobota(View view) {
+
+        Intent intent = new Intent(this, Sobota.class);
+        startActivity(intent);
+    }
+    public void wybierzNiedziela(View view) {
+
+        Intent intent = new Intent(this, Niedziela.class);
+        startActivity(intent);
     }
 }
