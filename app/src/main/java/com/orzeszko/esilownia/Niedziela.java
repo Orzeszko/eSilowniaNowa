@@ -1,13 +1,14 @@
-package com.example.orzeszko.esilownia;
+package com.orzeszko.esilownia;
 
 import android.annotation.SuppressLint;
-import android.renderscript.ScriptGroup;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+
+
+import com.example.orzeszko.esilownia.R;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -16,7 +17,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Wtorek extends AppCompatActivity {
+public class Niedziela extends AppCompatActivity {
 
     EditText editText1;
     EditText editText2;
@@ -30,7 +31,7 @@ public class Wtorek extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wtorek);
+        setContentView(R.layout.activity_niedziela);
         editText1 = findViewById(R.id.editText1);
         editText2 = findViewById(R.id.editText2);
         editText3 = findViewById(R.id.editText3);
@@ -53,17 +54,17 @@ public class Wtorek extends AppCompatActivity {
         String Cwiczenie7 = editText7.getText().toString();
 
 
-        String wtorekPlik1 = "wtorek1";
-        String wtorekPlik2 = "wtorek2";
-        String wtorekPlik3 = "wtorek3";
-        String wtorekPlik4 = "wtorek4";
-        String wtorekPlik5 = "wtorek5";
-        String wtorekPlik6 = "wtorek6";
-        String wtorekPlik7 = "wtorek7";
+        String poniedzialekPlik1 = "niedziela1";
+        String poniedzialekPlik2 = "niedziela2";
+        String poniedzialekPlik3 = "niedziela3";
+        String poniedzialekPlik4 = "niedziela4";
+        String poniedzialekPlik5 = "niedziela5";
+        String poniedzialekPlik6 = "niedziela6";
+        String poniedzialekPlik7 = "niedziela7";
 
 
         try {
-            FileOutputStream fileOutputStream1 = openFileOutput(wtorekPlik1, MODE_PRIVATE);
+            FileOutputStream fileOutputStream1 = openFileOutput(poniedzialekPlik1, MODE_PRIVATE);
             fileOutputStream1.write(Cwiczenie1.getBytes());
             fileOutputStream1.close();
 
@@ -74,7 +75,7 @@ public class Wtorek extends AppCompatActivity {
         }
 
         try {
-            FileOutputStream fileOutputStream2 = openFileOutput(wtorekPlik2, MODE_PRIVATE);
+            FileOutputStream fileOutputStream2 = openFileOutput(poniedzialekPlik2, MODE_PRIVATE);
             fileOutputStream2.write(Cwiczenie2.getBytes());
             fileOutputStream2.close();
 
@@ -86,7 +87,7 @@ public class Wtorek extends AppCompatActivity {
 
 
         try {
-            FileOutputStream fileOutputStream3 = openFileOutput(wtorekPlik3, MODE_PRIVATE);
+            FileOutputStream fileOutputStream3 = openFileOutput(poniedzialekPlik3, MODE_PRIVATE);
             fileOutputStream3.write(Cwiczenie3.getBytes());
             fileOutputStream3.close();
 
@@ -97,7 +98,7 @@ public class Wtorek extends AppCompatActivity {
         }
 
         try {
-            FileOutputStream fileOutputStream4 = openFileOutput(wtorekPlik4, MODE_PRIVATE);
+            FileOutputStream fileOutputStream4 = openFileOutput(poniedzialekPlik4, MODE_PRIVATE);
             fileOutputStream4.write(Cwiczenie4.getBytes());
             fileOutputStream4.close();
 
@@ -108,7 +109,7 @@ public class Wtorek extends AppCompatActivity {
         }
 
         try {
-            FileOutputStream fileOutputStream5 = openFileOutput(wtorekPlik5, MODE_PRIVATE);
+            FileOutputStream fileOutputStream5 = openFileOutput(poniedzialekPlik5, MODE_PRIVATE);
             fileOutputStream5.write(Cwiczenie5.getBytes());
             fileOutputStream5.close();
 
@@ -119,7 +120,7 @@ public class Wtorek extends AppCompatActivity {
         }
 
         try {
-            FileOutputStream fileOutputStream6 = openFileOutput(wtorekPlik6, MODE_PRIVATE);
+            FileOutputStream fileOutputStream6 = openFileOutput(poniedzialekPlik6, MODE_PRIVATE);
             fileOutputStream6.write(Cwiczenie6.getBytes());
             fileOutputStream6.close();
 
@@ -130,7 +131,7 @@ public class Wtorek extends AppCompatActivity {
         }
 
         try {
-            FileOutputStream fileOutputStream7 = openFileOutput(wtorekPlik7, MODE_PRIVATE);
+            FileOutputStream fileOutputStream7 = openFileOutput(poniedzialekPlik7, MODE_PRIVATE);
             fileOutputStream7.write(Cwiczenie7.getBytes());
             fileOutputStream7.close();
 
@@ -147,7 +148,7 @@ public class Wtorek extends AppCompatActivity {
             String Message1;
 
 
-            FileInputStream fileInputStream1 = openFileInput("wtorek1");
+            FileInputStream fileInputStream1 = openFileInput("niedziela1");
             InputStreamReader inputStreamReader1 = new InputStreamReader(fileInputStream1);
             BufferedReader bufferedReader1 = new BufferedReader(inputStreamReader1);
             StringBuffer stringBuffer1 = new StringBuffer();
@@ -169,7 +170,7 @@ public class Wtorek extends AppCompatActivity {
             String Message2;
 
 
-            FileInputStream fileInputStream2 = openFileInput("wtorek2");
+            FileInputStream fileInputStream2 = openFileInput("niedziela2");
             InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream2);
             BufferedReader bufferedReader2 = new BufferedReader(inputStreamReader);
             StringBuffer stringBuffer2 = new StringBuffer();
@@ -191,7 +192,7 @@ public class Wtorek extends AppCompatActivity {
             String Message3;
 
 
-            FileInputStream fileInputStream3 = openFileInput("wtorek3");
+            FileInputStream fileInputStream3 = openFileInput("niedziela3");
             InputStreamReader inputStreamReader3 = new InputStreamReader(fileInputStream3);
             BufferedReader bufferedReader3 = new BufferedReader(inputStreamReader3);
             StringBuffer stringBuffer3 = new StringBuffer();
@@ -214,7 +215,7 @@ public class Wtorek extends AppCompatActivity {
             String Message4;
 
 
-            FileInputStream fileInputStream4 = openFileInput("wtorek4");
+            FileInputStream fileInputStream4 = openFileInput("niedziela4");
             InputStreamReader inputStreamReader4 = new InputStreamReader(fileInputStream4);
             BufferedReader bufferedReader4 = new BufferedReader(inputStreamReader4);
             StringBuffer stringBuffer4 = new StringBuffer();
@@ -236,7 +237,7 @@ public class Wtorek extends AppCompatActivity {
             String Message5;
 
 
-            FileInputStream fileInputStream5 = openFileInput("wtorek5");
+            FileInputStream fileInputStream5 = openFileInput("niedziela5");
             InputStreamReader inputStreamReader5 = new InputStreamReader(fileInputStream5);
             BufferedReader bufferedReader5 = new BufferedReader(inputStreamReader5);
             StringBuffer stringBuffer5 = new StringBuffer();
@@ -258,7 +259,7 @@ public class Wtorek extends AppCompatActivity {
             String Message6;
 
 
-            FileInputStream fileInputStream6 = openFileInput("wtorek6");
+            FileInputStream fileInputStream6 = openFileInput("niedziela6");
             InputStreamReader inputStreamReader6 = new InputStreamReader(fileInputStream6);
             BufferedReader bufferedReader6 = new BufferedReader(inputStreamReader6);
             StringBuffer stringBuffer6 = new StringBuffer();
@@ -280,7 +281,7 @@ public class Wtorek extends AppCompatActivity {
             String Message7;
 
 
-            FileInputStream fileInputStream7 = openFileInput("wtorek7");
+            FileInputStream fileInputStream7 = openFileInput("niedziela7");
             InputStreamReader inputStreamReader7 = new InputStreamReader(fileInputStream7);
             BufferedReader bufferedReader7 = new BufferedReader(inputStreamReader7);
             StringBuffer stringBuffer7 = new StringBuffer();

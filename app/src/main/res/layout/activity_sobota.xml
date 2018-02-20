@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.orzeszko.esilownia.Sobota">
+    tools:context="com.example.orzeszko.esilownia.com.orzeszko.esilownia.Sobota">
 
 
     <!--Tutaj pierwszy layout - nazwa dnia-->

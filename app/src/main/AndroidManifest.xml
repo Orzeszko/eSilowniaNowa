@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.orzeszko.esilownia">
+    package="com.orzeszko.esilownia">
 
     <application
         android:allowBackup="true"
@@ -9,26 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.orzeszko.esilownia.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
+        <activity android:name="com.orzeszko.esilownia.Menu" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Poniedzialek" />
-        <activity android:name=".Wtorek" />
-        <activity android:name=".Sroda" />
-        <activity android:name=".Czwartek" />
-        <activity android:name=".Piatek" />
-        <activity android:name=".Sobota" />
-        <activity android:name=".Niedziela"></activity>
+        <activity android:name="com.orzeszko.esilownia.Poniedzialek" />
+        <activity android:name="com.orzeszko.esilownia.Wtorek" />
+        <activity android:name="com.orzeszko.esilownia.Sroda" />
+        <activity android:name="com.orzeszko.esilownia.Czwartek" />
+        <activity android:name="com.orzeszko.esilownia.Piatek" />
+        <activity android:name="com.orzeszko.esilownia.Sobota" />
+        <activity android:name="com.orzeszko.esilownia.Niedziela"></activity>
     </application>
 
 </manifest>

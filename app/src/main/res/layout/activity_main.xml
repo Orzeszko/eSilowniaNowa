@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.orzeszko.esilownia.MainActivity">
+    tools:context="com.example.orzeszko.esilownia.com.orzeszko.esilownia.MainActivity">
 
     <TextView
         android:id="@+id/textSilownia"

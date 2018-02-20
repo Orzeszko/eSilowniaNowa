@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.orzeszko.esilownia.Menu">
+    tools:context="com.example.orzeszko.esilownia.com.orzeszko.esilownia.Menu">
 
     <LinearLayout
         android:layout_width="match_parent"

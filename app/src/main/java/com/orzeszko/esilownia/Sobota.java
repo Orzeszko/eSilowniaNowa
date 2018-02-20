@@ -1,4 +1,4 @@
-package com.example.orzeszko.esilownia;
+package com.orzeszko.esilownia;
 
 import android.annotation.SuppressLint;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+
+import com.example.orzeszko.esilownia.R;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
